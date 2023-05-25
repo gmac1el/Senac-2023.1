@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200;300;400;500;600;700;800&family=Urbanist:wght@200;300;400;500;600;700;800&display=swap');
+
+html,
+body,
+style {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background:  #ffffff;
+  font-family: 'Be Vietnam Pro';
+}
+
+input[type=button] {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  left: 20px;
+  top: 56px;
+}
+
+textarea:focus,
+input:focus {
+  color: #000000;
+}
+
+input[type=password] {
+  position: center;
+  width: 335px;
+  height: 56px;
+  left: 20px;
+  top: 289px;
+  background: #F7F7F9;
+  border-radius: 14px;
+  border-style: hidden;
+}
+
+input[type=submit] {
+  position: center;
+  width: 335px;
+  height: 70px;
+  left: 20px;
+  top: 385px;
+  background: #2D1CC6;
+  border-radius: 16px;
+  border-style:hidden;
+  color: #ffff
+}
+
+
